@@ -1,6 +1,6 @@
 // THE API ENDPOINT= /api/new-meetup
 // POST /api/new-meetup
-import { MongoClient } from "mongodb";
+import {MongoClient} from "mongodb";
 
 // /api/new-meetup
 // POST /api/new-meetup
@@ -10,7 +10,7 @@ async function handler(req, res) {
     const data = req.body;
 
     const client = await MongoClient.connect(
-      "mongodb+srv://maximilian:TU6WdZF2EjFWsqUt@cluster0.ntrwp.mongodb.net/meetups?retryWrites=true&w=majority"
+      "mongodb+srv://Admin:CarGoiFONkpfywin@cluster0.0hpos.mongodb.net/meetups?retryWrites=true&w=majority"
     );
     const db = client.db();
 
@@ -22,7 +22,7 @@ async function handler(req, res) {
 
     client.close();
 
-    res.status(201).json({ message: "Meetup inserted!" });
+    res.status(201).json({message: "Meetup inserted!"});
   }
 }
 
