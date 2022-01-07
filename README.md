@@ -2,7 +2,7 @@
 
 Let's Meet is a full-stack application for finding meetups and creating new meetups. 
 <br>
-Created to learn Nextjs and MongoDB in the ['React- The Complete Guide"](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) course from Udemy.
+Created to learn Nextjs and MongoDB in the ['React- The Complete Guide'](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) course from Udemy.
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/82968631/148489163-9e2a0004-1447-452e-bec3-f9acfa2ccb42.png)
